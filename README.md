@@ -49,10 +49,4 @@ This project follows a collaborative workflow, where different sections are work
 
 We welcome your feedback and contributions to enhance this portfolio template. If you find any issues, have ideas for improvements, or want to contribute new features, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Designed and developed by [Your Name](https://github.com/yourusername) and [Collaborator's Name](https://github.com/collaboratorusername).
+Designed and developed by Chinonye Ibeakanma (https://github.com/ChinonyeRuth) and Korede (https://github.com/collaboratorusername).
