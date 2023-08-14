@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="assets/pp.png">
   </head>
   <body>
     <section id="navbar">
@@ -70,7 +71,7 @@
     <section class="home" id="home">
         <div class="home-content">
             <div class="content">
-                <h1>Hello, I'm Chinonye,</h1>
+                <h1>Hello, <span class="input"></span> </h1>
                 <h2>Freelance GaseEasy <br> Designer & Developer</h2>
                 <div class="paragraph">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi uttt <br> aliquip ex ea commodo consequat. </p>
@@ -85,5 +86,15 @@
             <img src="assets/clip.png" alt="guy">
         </div>
     </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:["I'm Chinonye", "I'm Web Developer", "I'm App Developer", "I'm UI/UX Designer"],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
   </body>
 </html>
