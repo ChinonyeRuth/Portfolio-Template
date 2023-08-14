@@ -190,3 +190,67 @@ li {
 .image img {
   width: 460px;
 }
+
+.about_me_content h6 {
+  color: #ffbf00;
+  text-transform: uppercase;
+}
+
+.about_me_content h2 {
+  color: #fff;
+  font-family: 'PT Serif', serif;
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.white {
+  color: #ffbf00;
+}
+
+.aboutme {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.about_me {
+  margin-top: 20px; /* Adjust this value to move the second section further below */
+  padding: 100px; /* Optional: Add padding to the sections for spacing */
+}
+
+.about_me_content h6 {
+  margin-top: 30px;
+}
+
+.about_me_content h2 {
+  margin-top: 10px;
+}
+
+.about_me_paragraph {
+}
+
+.about_me_paragraph p {
+  font-size: 12px;
+  margin-top: 8px;
+  border-left: 3px solid #ffbf00;
+  padding: 10px;
+  line-height: 16px;
+  color: #fff;
+}
+.about_button a {
+  text-transform: uppercase;
+  padding: 12px 14px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #ffbf00;
+  border-radius: 5px;
+  margin-right: 40px;
+  text-decoration: none;
+  color: #ffbf00;
+  font-size: 14px;
+  font-weight: 600;
+}
+.about_button {
+  margin-top: 30px;
+}
